@@ -43,4 +43,4 @@ $ops[] = $ops_item;
 
 $res = getMax($ops);
 
-echo $res;
+print_r($res);
