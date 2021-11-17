@@ -10,7 +10,6 @@
  */
 
 function getSmallestValues($A) {
-    sort($A);
     return [$A[0], $A[1]];
 }
 
@@ -40,9 +39,9 @@ function cookies($k, $A) {
         $value = $smallestEls[0] + $smallestEls[0] * $smallestEls[1];
         $A = array($value) + $A;
         sort($A);
-        print_r($A);
         $counter++;
     }
+    print_r($A);
     return $counter;
 
 }
